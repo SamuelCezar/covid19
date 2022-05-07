@@ -1,4 +1,5 @@
 import BrazilFlag from '../../assets/images/brazil.png'
+import earth from '../../assets/images/earth.jpg'
 import ChinaFlag from '../../assets/images/china.png'
 import GermanyFlag from '../../assets/images/germany.png'
 import ItalyFlag from '../../assets/images/italy.png'
@@ -29,7 +30,12 @@ const COUNTRIES = [
     label: 'Itália',
     value: 'italy',
     flag: ItalyFlag
-  }
+  },
+  {
+    label: 'Mundo',
+    value: 'world',
+    flag: earth
+  },
 ]
 
 export default COUNTRIES
